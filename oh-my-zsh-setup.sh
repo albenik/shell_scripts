@@ -15,6 +15,7 @@ then
   mkdir -p "$OMZ_THEME_DIR"
 fi
 
-curl -L "$MY_THEME_BASE_URL/albenik-imac.zsh-theme" > "$OMZ_THEME_DIR/albenik-imac.zsh-theme"
-curl -L "$MY_THEME_BASE_URL/albenik-remote-x.zsh-theme" > "$OMZ_THEME_DIR/albenik-remote-x.zsh-theme"
-
+cd "$OMZ_THEME_DIR"
+pwd
+wget --no-check-certificate "$MY_THEME_BASE_URL/albenik-imac.zsh-theme"
+wget --no-check-certificate "$MY_THEME_BASE_URL/albenik-remote-x.zsh-theme"
