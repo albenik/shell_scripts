@@ -3,7 +3,7 @@ OMZ_CUSTOM_DIR="$OMZ_DIR/custom"
 OMZ_THEME_DIR="$OMZ_CUSTOM_DIR/themes"
 MY_THEME_BASE_URL="https://raw.github.com/albenik/shell_scripts/master/custom/themes"
 
-wget --no-check-certificate http://install.ohmyz.sh -O - | sh
+# wget --no-check-certificate http://install.ohmyz.sh -O - | sh
 
 if [[ ! -d $OMZ_CUSTOM_DIR ]]
 then
